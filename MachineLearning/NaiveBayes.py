@@ -92,3 +92,13 @@ print("A categoria prevista para a nova descrição é:", categoria_prevista[0])
 #Em resumo, o Naive Bayes é um algoritmo de classificação que calcula a probabilidade de um ponto de dados pertencer a uma classe com base em características (ou palavras)
 #e a suposição de independência condicional entre essas características. É uma técnica eficaz e rápida para tarefas de classificação de texto, mas pode não funcionar bem em todos os cenários,
 #especialmente quando a independência condicional não é uma suposição razoável.
+
+#O projeto que você descreveu se encaixa no Aprendizado Supervisionado e utiliza um algoritmo de Naive Bayes para classificar descrições de animais em categorias predefinidas com base em rótulos fornecidos.
+#O aprendizado supervisionado envolve o treinamento de um modelo com um conjunto de dados que contém pares de entrada e saída (neste caso, descrições de animais e rótulos correspondentes). 
+#O modelo é treinado para fazer previsões com base nesses exemplos de treinamento.
+
+#Nesse projeto, as descrições de animais são as entradas (recursos) e as categorias (por exemplo, "gato", "cachorro", etc.) são as saídas que o modelo tenta prever.
+#O modelo é treinado usando o algoritmo de classificação Naive Bayes Multinomial com vetores TF-IDF das descrições como características. Após o treinamento,
+#o modelo é capaz de prever a categoria de uma nova descrição de animal com base no que aprendeu durante o treinamento.
+
+#Portanto, seu projeto está relacionado ao Aprendizado Supervisionado e usa o Aprendizado de Máquina para classificar dados com base em rótulos fornecidos durante o treinamento.
