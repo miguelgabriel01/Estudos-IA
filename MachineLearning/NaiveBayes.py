@@ -81,3 +81,14 @@ categoria_prevista = clf.predict(X_nova)
 
 # Exibição da categoria prevista
 print("A categoria prevista para a nova descrição é:", categoria_prevista[0])
+
+
+#O "Naive Bayes" é um algoritmo de aprendizado de máquina com supervisão que é comumente usado para classificação e análise de texto.
+#Ele é baseado no Teorema de Bayes e é "ingênuo" porque assume independência condicional entre os recursos (palavras ou características) usados para a classificação,
+#mesmo que essa independência nem sempre seja verdadeira na prática.
+#Devido a essa suposição, o Naive Bayes pode não ser o melhor algoritmo para todos os tipos de dados, mas é amplamente utilizado em aplicações de processamento de linguagem
+#natural e classificação de textos, como detecção de spam, classificação de documentos, análise de sentimentos e muito mais.
+
+#Em resumo, o Naive Bayes é um algoritmo de classificação que calcula a probabilidade de um ponto de dados pertencer a uma classe com base em características (ou palavras)
+#e a suposição de independência condicional entre essas características. É uma técnica eficaz e rápida para tarefas de classificação de texto, mas pode não funcionar bem em todos os cenários,
+#especialmente quando a independência condicional não é uma suposição razoável.
