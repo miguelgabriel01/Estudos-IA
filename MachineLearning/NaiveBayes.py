@@ -1,3 +1,9 @@
+#Aprendizado Supervisionado: 
+#No aprendizado supervisionado, um modelo é treinado com um conjunto de dados rotulados,
+#o que significa que cada exemplo no conjunto de treinamento é associado a um rótulo ou uma classe conhecida. O modelo
+#aprende a mapear os recursos dos dados para os rótulos correspondentes,
+#tornando-se capaz de fazer previsões ou classificar novos exemplos com base nesse aprendizado.
+
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
